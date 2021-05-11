@@ -1,0 +1,57 @@
+.App {
+   display: flex;
+}
+#timerContainer {
+   display: inline-block;
+}
+
+#timer {
+   display: flex;
+}
+
+#tomato {
+   background-image: url(https://i.ibb.co/pysntgr/Untitled-design-24.png);
+   background-size: 200px;
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+}
+
+#tomato h1 {
+   text-align: center;
+   padding-top: 30px;
+}
+
+#tomato button {
+   display: inline-block;
+   margin: 0 35px;
+}
+
+#timerButton {
+   display: inline-block;
+   height: 200px;
+   width: 200px;
+   border: 2px solid black;
+}
+
+#taskContainer {
+   display: inline-block;
+   border: 2px solid black;
+   border-radius: 12px;
+   padding: 0 8px;
+   margin-left: 20px;
+}
+
+#taskContainer span {
+   border: 1px solid red;
+   margin: 8px 12px;
+   padding: 8px;
+}
+
+#taskContainer input {
+   margin-top: 20px;
+}
+
+.radio {
+   border: 1px solid black;
+}
